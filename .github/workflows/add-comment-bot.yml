@@ -7,10 +7,11 @@ jobs:
     env:
       URL_PROD: "https://lively-ground-0d7c50410-${{github.event.number}}.centralus.azurestaticapps.net"
     steps:
+      - name: Add Comment
       - uses: mshick/add-pr-comment@v1
         with:
           message: |
-            URL_PROD
+            ${{ github.event.number }}
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           repo-token-user-login: "Bot[bot]" # The user.login for temporary GitHub tokens
           allow-repeats: false # This is the default
