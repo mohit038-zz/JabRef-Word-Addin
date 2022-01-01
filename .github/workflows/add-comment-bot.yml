@@ -7,7 +7,6 @@ jobs:
     env:
       URL_PROD: "https://lively-ground-0d7c50410-${{github.event.number}}.centralus.azurestaticapps.net"
     steps:
-      - name: Add Comment
       - uses: mshick/add-pr-comment@v1
         with:
           message: |
