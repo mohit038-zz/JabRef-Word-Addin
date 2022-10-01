@@ -7910,10 +7910,10 @@ obuf@^1.0.0, obuf@^1.1.2:
   resolved "https://registry.npmjs.org/obuf/-/obuf-1.1.2.tgz"
   integrity sha512-PX1wu0AmAdPqOL1mWhqmlOd8kOIZQwGZw6rh7uby9fTc5lhaOWFLX3I6R1hrF9k3zUY40e6igsLGkDXK92LJNg==
 
-office-addin-cli@^1.2.5, office-addin-cli@^1.3.2:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/office-addin-cli/-/office-addin-cli-1.3.2.tgz#0fc089981eb896f45804e16934e12918dd6d5895"
-  integrity sha512-UbteR6WEgUCRo83PPIHd8hWZ4pFNNjfhBJBGdJwSNYN+6Hu+QQvndY5asfCs91HVhpCNsIkgStjYGzHh7GhU5w==
+office-addin-cli@^1.2.5, office-addin-cli@^1.3.2, office-addin-cli@^1.5.2:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/office-addin-cli/-/office-addin-cli-1.5.2.tgz#9a4e841b41bd1fdb1b8185aa803acba193381245"
+  integrity sha512-h03aW4zifp80YC3ld5XOcX3d93ucUhF6lCCbGBVWG1nv3pG6X3E9t8juDsXq0IYNFCFnQZxHYmLDE6r6GYd+NQ==
   dependencies:
     commander "^6.2.1"
     node-fetch "^2.6.1"
@@ -7934,17 +7934,17 @@ office-addin-debugging@^4.3.2:
     office-addin-node-debugger "^0.6.2"
     office-addin-usage-data "^1.4.2"
 
-office-addin-dev-certs@^1.7.2:
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/office-addin-dev-certs/-/office-addin-dev-certs-1.7.2.tgz#72597add8eb4207b8cf1acbf8eae4c84e4d87893"
-  integrity sha512-jWIHHUF+MnDS/SBDQ10SOhWoH8TZPxBWHIruXd7VJVW7y5izwsBcwO6CezUwWE4cLeliJWZsUCortVthmkpn/A==
+office-addin-dev-certs@^1.7.2, office-addin-dev-certs@^1.9.2:
+  version "1.9.2"
+  resolved "https://registry.yarnpkg.com/office-addin-dev-certs/-/office-addin-dev-certs-1.9.2.tgz#855e3438a103b3f1ce5ac71b0eca7aa60c72abf5"
+  integrity sha512-143pWFD7EwWfD4wIgZwXxzHdBJppnclY9YQhVSIsjiJ6mWoqMx/FksApvpfd2nWniK3XVOep1TPEeB1Xhy9paw==
   dependencies:
     child_process "^1.0.2"
     commander "^6.2.0"
     fs-extra "^7.0.1"
     mkcert "^1.4.0"
-    office-addin-cli "^1.3.2"
-    office-addin-usage-data "^1.4.2"
+    office-addin-cli "^1.5.2"
+    office-addin-usage-data "^1.6.2"
 
 office-addin-dev-settings@^1.10.2:
   version "1.10.2"
@@ -8011,15 +8011,15 @@ office-addin-prettier-config@^1.1.1:
   resolved "https://registry.yarnpkg.com/office-addin-prettier-config/-/office-addin-prettier-config-1.1.1.tgz#1bf2fc61529da8aa541f7fe0b4f959110ca619c6"
   integrity sha512-6WopN++t6nC3QU2AqbGOVuWWTR0fratf5DQRG6DOHtuSVGC95GNWE5vuoz3EGlwnd9GpQJvsA9gkUICqVFXSmQ==
 
-office-addin-usage-data@^1.4.2, office-addin-usage-data@^1.4.3:
-  version "1.4.3"
-  resolved "https://registry.yarnpkg.com/office-addin-usage-data/-/office-addin-usage-data-1.4.3.tgz#92f37d24a5ce71d710ce4c88af945829265099dc"
-  integrity sha512-LLeXZdG23ulXBkI/2bKhMqDiRvl+mDw0AxETsiwUYF7KHOH9QuLUlfuMthyMX0vnXM4xI8b2M8/dLwQbeBZSsA==
+office-addin-usage-data@^1.4.2, office-addin-usage-data@^1.4.3, office-addin-usage-data@^1.6.2:
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/office-addin-usage-data/-/office-addin-usage-data-1.6.2.tgz#ce158bed7bdaacfa89d6ab30ba82c59934f4c971"
+  integrity sha512-OvXsvmZctDWvoWXnKG/vG711Ouzq0QYL3YUr3N1jIdkkjIRLzedoo+9P9LPEKPwfJz/VslnyKxL7eZpH2pSwCw==
   dependencies:
     applicationinsights "^1.7.3"
     commander "^6.2.0"
-    office-addin-cli "^1.3.2"
     readline-sync "^1.4.9"
+    uuid "8.3.2"
 
 on-finished@~2.3.0:
   version "2.3.0"
@@ -10372,15 +10372,15 @@ utils-merge@1.0.1:
   resolved "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
 
+uuid@8.3.2, uuid@^8.3.2:
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
+
 uuid@^3.4.0:
   version "3.4.0"
   resolved "https://registry.npmjs.org/uuid/-/uuid-3.4.0.tgz"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
-
-uuid@^8.3.2:
-  version "8.3.2"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
-  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
 v8-compile-cache@^2.0.3:
   version "2.3.0"
